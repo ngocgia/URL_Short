@@ -1,0 +1,56 @@
+.notifi{
+  margin-left: 645px;
+  color: red;
+}
+.form {
+  background:#fff;
+  max-width: 500px;
+  margin: 10px auto;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.form input {
+  background: hsl(210, 36%, 96%);
+  border-color: transparent;
+  width: 450px;
+  height: 35px;
+  border-radius: 3px;
+  padding: 3px 10px;
+}
+.form-control {
+  margin: 5px 0;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+.form button {
+  display: inline-block;
+  background:#63b94c;
+  color: #fff;
+  border-color: transparent;
+  margin-top: 10px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.item {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 20px auto;
+  align-items: center;
+  border-radius: 3px;
+}
+.item button,
+.item a {
+  background: transparent;
+  border-color: transparent;
+  color: hsl(205, 78%, 60%);
+  cursor: pointer;
+}
+.item {
+  padding: 10px 20px;
+}
